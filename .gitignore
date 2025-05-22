@@ -1,0 +1,19 @@
+# Ignore backend files
+__pycache__/
+venv/
+*.sqlite3
+trademe_debug.png
+trademe_rendered.html
+
+# Ignore frontend files
+node_modules/
+dist/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore OS and editor files
+.DS_Store
+*.code-workspace 
